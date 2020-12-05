@@ -1,39 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "73b53ea0b563aa22b40a7410ad8945d0",
+    "revision": "d398bf20e6d78362002826016a00c82a",
     "url": "/index.html"
   },
   {
-    "revision": "97a54a60d03a7fe1a6d9",
-    "url": "/static/css/3.00373544.chunk.css"
+    "revision": "d9aff4d7ed74c81c5045",
+    "url": "/static/css/3.3a26ebde.chunk.css"
   },
   {
-    "revision": "1c2c143205094ab30863",
-    "url": "/static/css/4.a922a401.chunk.css"
+    "revision": "8b62c9e0b98f71cb4af0",
+    "url": "/static/css/4.ee2a0142.chunk.css"
   },
   {
-    "revision": "11bd3ad0d01ad7dedef7",
-    "url": "/static/css/main.074059e9.chunk.css"
+    "revision": "4f80010fbb22192663c9",
+    "url": "/static/css/main.e8ce1bd7.chunk.css"
   },
   {
-    "revision": "455f870d746e5209ca82",
-    "url": "/static/js/2.e66470ce.chunk.js"
+    "revision": "691f7d5a1c830209b812",
+    "url": "/static/js/2.404173ec.chunk.js"
   },
   {
-    "revision": "97a54a60d03a7fe1a6d9",
-    "url": "/static/js/3.76f88f96.chunk.js"
+    "revision": "d9aff4d7ed74c81c5045",
+    "url": "/static/js/3.e8f43c13.chunk.js"
   },
   {
-    "revision": "1c2c143205094ab30863",
-    "url": "/static/js/4.889a6c27.chunk.js"
+    "revision": "8b62c9e0b98f71cb4af0",
+    "url": "/static/js/4.0762641c.chunk.js"
   },
   {
-    "revision": "11bd3ad0d01ad7dedef7",
-    "url": "/static/js/main.e48ad096.chunk.js"
+    "revision": "4f80010fbb22192663c9",
+    "url": "/static/js/main.a1a00ba7.chunk.js"
   },
   {
-    "revision": "d579b20cd9fd8690d2d9",
-    "url": "/static/js/runtime-main.6fc53773.js"
+    "revision": "937627e689583513e3c8",
+    "url": "/static/js/runtime-main.e94e76a1.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
@@ -68,8 +68,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/developerActivity.59389695.svg"
   },
   {
-    "revision": "b15c54795c41369d41f18e1ed2c6add4",
-    "url": "/static/media/dm-logo-purple.b15c5479.svg"
+    "revision": "bab5f4bf08c78308e9db65b3f658dba9",
+    "url": "/static/media/dm-logo-purple.bab5f4bf.svg"
   },
   {
     "revision": "e5490b26b0404ac4ac0cc91b4162dad1",
@@ -144,11 +144,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/stanfordLogo.3b758ef5.png"
   },
   {
-    "revision": "13780cdd0144cacdef25486e2c2503f8",
-    "url": "/static/media/talksCardBack.13780cdd.svg"
+    "revision": "39eff4a91b01e00a32cb78f3797eec88",
+    "url": "/static/media/talksCardBack.39eff4a9.svg"
   },
   {
-    "revision": "b48e86c9a956d3a3a32ca4a5ae05ddc7",
-    "url": "/static/media/talksCardBackAlt.b48e86c9.svg"
+    "revision": "7f0feeedda08cf7d68593454bc2e82b5",
+    "url": "/static/media/talksCardBackAlt.7f0feeed.svg"
   }
 ]);
