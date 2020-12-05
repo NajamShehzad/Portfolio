@@ -1,39 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "61e61be4ba1f82ebe64bc51e18b1e3ef",
+    "revision": "b4acb5a008989a7d848248fc2654a585",
     "url": "/index.html"
   },
   {
-    "revision": "8dac1a970a4f244ec328",
-    "url": "/static/css/3.3a26ebde.chunk.css"
+    "revision": "97a54a60d03a7fe1a6d9",
+    "url": "/static/css/3.00373544.chunk.css"
   },
   {
-    "revision": "835d4ea80008a3763021",
-    "url": "/static/css/4.ee2a0142.chunk.css"
+    "revision": "1c2c143205094ab30863",
+    "url": "/static/css/4.a922a401.chunk.css"
   },
   {
-    "revision": "8125b5e7aa28d4a317ac",
-    "url": "/static/css/main.e8ce1bd7.chunk.css"
+    "revision": "11bd3ad0d01ad7dedef7",
+    "url": "/static/css/main.074059e9.chunk.css"
   },
   {
     "revision": "455f870d746e5209ca82",
     "url": "/static/js/2.e66470ce.chunk.js"
   },
   {
-    "revision": "8dac1a970a4f244ec328",
+    "revision": "97a54a60d03a7fe1a6d9",
     "url": "/static/js/3.76f88f96.chunk.js"
   },
   {
-    "revision": "835d4ea80008a3763021",
-    "url": "/static/js/4.71506e70.chunk.js"
+    "revision": "1c2c143205094ab30863",
+    "url": "/static/js/4.889a6c27.chunk.js"
   },
   {
-    "revision": "8125b5e7aa28d4a317ac",
-    "url": "/static/js/main.9a397c73.chunk.js"
+    "revision": "11bd3ad0d01ad7dedef7",
+    "url": "/static/js/main.e48ad096.chunk.js"
   },
   {
-    "revision": "e3f2058ea230cf49a500",
-    "url": "/static/js/runtime-main.dcbf8334.js"
+    "revision": "d579b20cd9fd8690d2d9",
+    "url": "/static/js/runtime-main.6fc53773.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
@@ -68,8 +68,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/developerActivity.59389695.svg"
   },
   {
-    "revision": "bab5f4bf08c78308e9db65b3f658dba9",
-    "url": "/static/media/dm-logo-purple.bab5f4bf.svg"
+    "revision": "b15c54795c41369d41f18e1ed2c6add4",
+    "url": "/static/media/dm-logo-purple.b15c5479.svg"
   },
   {
     "revision": "e5490b26b0404ac4ac0cc91b4162dad1",
@@ -144,11 +144,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/stanfordLogo.3b758ef5.png"
   },
   {
-    "revision": "39eff4a91b01e00a32cb78f3797eec88",
-    "url": "/static/media/talksCardBack.39eff4a9.svg"
+    "revision": "13780cdd0144cacdef25486e2c2503f8",
+    "url": "/static/media/talksCardBack.13780cdd.svg"
   },
   {
-    "revision": "7f0feeedda08cf7d68593454bc2e82b5",
-    "url": "/static/media/talksCardBackAlt.7f0feeed.svg"
+    "revision": "b48e86c9a956d3a3a32ca4a5ae05ddc7",
+    "url": "/static/media/talksCardBackAlt.b48e86c9.svg"
   }
 ]);
