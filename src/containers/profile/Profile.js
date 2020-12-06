@@ -38,6 +38,7 @@ export default function Profile() {
       `,
       })
       .then((result) => {
+        console.log({first:result.data.user});
         setProfileFunction(result.data.user);
       })
       .catch(function (error) {

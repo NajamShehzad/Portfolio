@@ -9,7 +9,7 @@ const greeting = {
   /* Your Summary And Greeting Section */
   username: "Najam Shehzad",
   title: "Hi, It's Najam",
-  subTitle: emoji("A passionate Software Engineer 🚀 experienced in building Server, Web and Mobile applications with JavaScript / PHP / Nodejs / Reactjs / React Native and some other cool libraries and frameworks 😀"),
+  subTitle: emoji("A passionate Software Engineer 🚀 experienced in building Server, Web and Mobile applications with JavaScript / Python / PHP / Nodejs / Reactjs / React Native and some other cool libraries and frameworks 😀"),
   resumeLink: "https://drive.google.com/file/d/15CBOCrh5KFPpam1h5npfWoYzmhQUvOav/view?usp=sharing"
 };
 
@@ -147,8 +147,8 @@ const educationInfo = {
       duration: "September 2017 - April 2019",
       desc: "Participated in the research of XXX and published 3 papers.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",// mg3 eis4 vi1
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"// 1 masha / 8 ratti
       ]
     },
     {
@@ -211,7 +211,7 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects 🚀",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I CREATED THEIR TECH",
+  subtitle: "SOME STARTUPS AND COMPANIES I CREATED TECH FOR",
   projects: [
     {
       image: require("./assets/images/closebuy.jpg"),
