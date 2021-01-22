@@ -40,7 +40,7 @@ const skillsSection = {
     emoji("⚡ Develop highly interactive Front End / User Interfaces for your web and mobile applications"),
     emoji("⚡ Single Page Application ( SPA ) "),
     emoji("⚡ Progressive Web Applications ( PWA ) "),
-    emoji("⚡ Integration of Third party API like Google, Facebook, Twitter, Wordpress, Mautic etc"),
+    emoji("⚡ Integration of Third party API like Google, Facebook, Twitter, WordPress, Mautic etc"),
   ],
 
   /* Make Sure You include correct Font Awesome Classname to view your icon
