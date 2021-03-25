@@ -210,18 +210,34 @@ const openSource = {
 // Some Big Projects You have worked with your company
 
 const bigProjects = {
-  title: "Big Projects 🚀",
-  subtitle: "SOME STARTUPS AND COMPANIES I CREATED TECH FOR",
+  title: "Big Projects",
+  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
       image: require("./assets/images/closebuy.jpg"),
-      link: "https://www.closebuy.se/"
+      projectName: "Closebuy",
+      projectDesc: "A completely new concept for unmanned stores that gives your association extra buzz at the checkout.",
+      footerLink: [
+        {
+          name: "Visit Closebuy",
+          url:  "https://www.closebuy.se/"
+        }
+        //  you can add extra buttons here.
+      ]
     },
     {
       image: require("./assets/images/piaic.jpg"),
-      link: "https://www.piaic.org/"
+      projectName: "PIAIC",
+      projectDesc: "Presidential Initiative for Artificial Intelligence & Computing (PIAIC)",
+      footerLink: [
+        {
+          name: "Visit PIAIC",
+          link: "https://www.piaic.org/"
+        }
+      ]
     }
-  ]
+  ],
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Your Achievement Section Include Your Certification Talks and More
