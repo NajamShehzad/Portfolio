@@ -20,7 +20,7 @@ const socialMediaLinks = {
   github: "https://github.com/najamshehzad",
   linkedin: "https://www.linkedin.com/in/najamshehzadbutt/",
   gmail: "najamshehzadbutt@gmail.com",
-  facebook: "https://www.facebook.com/najamshehadbutt",
+  facebook: "https://www.facebook.com/najamshehzadbutt",
   gitlab: "https://gitlab.com/najamshehzad",
   medium: "https://medium.com/@najambutt195",
   stackoverflow: "https://stackoverflow.com/users/9660073/najam-butt",
@@ -201,8 +201,8 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-  githubUserName: "najamshehzad", // Change to your github username to view your profile in Contact Section.
+  githubConvertedToken: "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",
+  githubUserName: "afefferhichi", // Change to your github username to view your profile in Contact Section.
   showGithubProfile: "true" // Set true or false to show Contact profile using Github, defaults to false
 };
 
