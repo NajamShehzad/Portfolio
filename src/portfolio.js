@@ -10,7 +10,7 @@ const greeting = {
   username: "Najam Shehzad",
   title: "Hi, It's Najam",
   subTitle: emoji("A passionate Software Engineer 🚀 experienced in building Server, Web and Mobile applications with JavaScript / Python / PHP / Nodejs / Reactjs / React Native and some other cool libraries and frameworks 😀"),
-  resumeLink: "https://drive.google.com/file/d/15CBOCrh5KFPpam1h5npfWoYzmhQUvOav/view?usp=sharing"
+  resumeLink: "https://drive.google.com/file/d/1gwvN3SLTso1gD5VqbGiPoA5-diH5SQd-/view?usp=sharing"
 };
 
 // Your Social Media Link
