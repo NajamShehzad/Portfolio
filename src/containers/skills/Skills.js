@@ -4,7 +4,7 @@ import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
 import { skillsSection } from "../../portfolio";
 import { Fade } from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
-
+import developerWorking from "../../assets/images/developerActivity.svg";
 export default function Skills() {
   const { isDark } = useContext(StyleContext);
   return (
@@ -13,8 +13,8 @@ export default function Skills() {
         <Fade left duration={1000}>
           <div className="skills-image-div">
             <img
-              alt="Saad Working"
-              src={require("../../assets/images/developerActivity.svg")}
+              alt="Najam Working"
+              src={developerWorking}
             ></img>
           </div>
         </Fade>

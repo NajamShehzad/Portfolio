@@ -6,7 +6,7 @@ import { greeting } from "../../portfolio";
 import { Fade } from "react-reveal";
 import emoji from "react-easy-emoji";
 import StyleContext from "../../contexts/StyleContext";
-
+import manOnStable from "../../assets/images/manOnTable.svg";
 export default function Greeting() {
   const { isDark } = useContext(StyleContext);
   return (
@@ -44,8 +44,8 @@ export default function Greeting() {
           </div>
           <div className="greeting-image-div">
             <img
-              alt="saad sitting on table"
-              src={require("../../assets/images/manOnTable.svg")}
+              alt="Najam sitting on table"
+              src={manOnStable}
             ></img>
           </div>
         </div>
