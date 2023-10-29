@@ -6,6 +6,7 @@ import Button from "../../components/button/Button";
 import { openSource, socialMediaLinks } from "../../portfolio";
 import { StyleConsumer } from "../../contexts/StyleContext";
 import Loading from "../../containers/loading/Loading";
+import {pinRepos} from './pintRepo'
 export default function Projects() {
   const GithubRepoCard = lazy(() =>
     import("../../components/githubRepoCard/GithubRepoCard")
@@ -14,9 +15,14 @@ export default function Projects() {
   const renderLoader = () => <Loading />;
   const [repo, setrepo] = useState([]);
   const { isDark } = useContext(StyleConsumer);
+
+  // useEffect(() => { // Enable this when fetching data from github
+  //   getRepoData();
+  // }, []);
+
   useEffect(() => {
-    getRepoData();
-  }, []);
+    setrepoFunction(pinRepos.edges);
+  },[])
 
   function getRepoData() {
     const client = new ApolloClient({

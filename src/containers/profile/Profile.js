@@ -3,7 +3,7 @@ import ApolloClient, { gql } from "apollo-boost";
 import { openSource } from "../../portfolio";
 import Contact from "../contact/Contact";
 import Loading from "../loading/Loading";
-
+import {najamProfile} from './profileData'
 const renderLoader = () => <Loading />;
 const GithubProfileCard = lazy(() => import('../../components/githubProfileCard/GithubProfileCard'));
 export default function Profile() {
@@ -48,11 +48,18 @@ export default function Profile() {
           openSource.showGithubProfile = "false";
       });
   }
+  // useEffect(() => {
+  //   if (openSource.showGithubProfile === "true") {
+  //     getProfileData();
+  //   }
+  // }, []);
+
   useEffect(() => {
     if (openSource.showGithubProfile === "true") {
-      getProfileData();
+      setProfileFunction(najamProfile);
     }
   }, []);
+
 if (openSource.showGithubProfile === "true" && !(typeof prof === 'string' || prof instanceof String)){  
     return (
       <Suspense fallback={renderLoader()}>
