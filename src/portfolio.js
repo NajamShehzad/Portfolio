@@ -9,7 +9,7 @@ const greeting = {
   /* Your Summary And Greeting Section */
   username: "Najam Shehzad",
   title: "Hi, It's Najam",
-  subTitle: emoji("A passionate Software Engineer 🚀 experienced in building Server, Web and Mobile applications with JavaScript / Python / PHP / Nodejs / Reactjs / React Native and some other cool libraries and frameworks 😀"),
+  subTitle: emoji(`🚀 Experienced Software Development Manager with 5+ years crafting web, mobile, and server applications. Skilled in TypeScript, JavaScript, Python, and C#. 🖥️ Expertise in AI integrations and cloud infrastructures across AWS, GCP, and Azure. Driven by innovation, I prioritize both technical prowess and alignment with business needs. Let's build something amazing together! 🔧`),
   resumeLink: "https://drive.google.com/file/d/1gwvN3SLTso1gD5VqbGiPoA5-diH5SQd-/view?usp=sharing"
 };
 
