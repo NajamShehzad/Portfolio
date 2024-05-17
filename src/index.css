@@ -32,3 +32,42 @@ body {
     line-height: normal;
   }
 }
+
+.fa-ts {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  background: url('./assets/images/typescript.svg');
+  background-size: contain;
+}
+
+.fa-ts:hover {
+  background: url('./assets/images/typescriptblue.svg');
+  background-size: contain;
+}
+
+.fa-kubernetes {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  background: url('./assets/images/kubernetes.svg');
+  background-size: contain;
+}
+
+.fa-kubernetes:hover {
+  background: url('./assets/images/kubernetesblue.svg');
+  background-size: contain;
+}
+
+.fa-graphql {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  background: url('./assets/images/graphql.svg');
+  background-size: contain;
+}
+
+.fa-graphql:hover {
+  background: url('./assets/images/graphqlblue.svg');
+  background-size: contain;
+}

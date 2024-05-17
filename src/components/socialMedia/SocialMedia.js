@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React from "react";
 import "./SocialMedia.css";
 import { socialMediaLinks } from "../../portfolio";
@@ -29,6 +30,14 @@ export default function socialMedia() {
       </a>
       :
       null}
+      {socialMediaLinks.npm?
+      // Give it red color
+      <a href={socialMediaLinks.npm} className="icon-button npm " target="_blank">
+        <i className="fab fa-npm"></i>
+        <span></span>
+      </a>
+      :
+      null}  
 
       {socialMediaLinks.gitlab ?
       <a href={socialMediaLinks.gitlab} className="icon-button gitlab" target="_blank">

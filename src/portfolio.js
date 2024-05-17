@@ -5,12 +5,15 @@
 
 import emoji from "react-easy-emoji";
 
+const date2018 = new Date(2017, 0, 1);
+const yearsActive = new Date().getFullYear() - date2018.getFullYear();
+
 const greeting = {
   /* Your Summary And Greeting Section */
   username: "Najam Shehzad",
   title: "Hi, It's Najam",
-  subTitle: emoji(`🚀 Experienced Software Development Manager with 5+ years crafting web, mobile, and server applications. Skilled in TypeScript, JavaScript, Python, and C#. 🖥️ Expertise in AI integrations and cloud infrastructures across AWS, GCP, and Azure. Driven by innovation, I prioritize both technical prowess and alignment with business needs. Let's build something amazing together! 🔧`),
-  resumeLink: "https://drive.google.com/file/d/1gwvN3SLTso1gD5VqbGiPoA5-diH5SQd-/view?usp=sharing"
+  subTitle: emoji(`🚀 Senior Software Engineer and Software Development Manager with ${yearsActive}+ years of experience crafting web, mobile, and server applications. Skilled in TypeScript, JavaScript, Python, and C#. 🖥️ Expertise in AI integrations and cloud infrastructures across AWS, GCP, and Azure. Driven by innovation, I prioritize both technical prowess and alignment with business needs. Let's build something amazing together! 🔧`),
+  resumeLink: "https://docs.google.com/document/d/1_YKxd1oAenxJHV-1s6KPTBmZdzYWKzFp/edit?usp=sharing&ouid=115993998049444930711&rtpof=true&sd=true"
 };
 
 // Your Social Media Link
@@ -24,91 +27,94 @@ const socialMediaLinks = {
   gitlab: "https://gitlab.com/najamshehzad",
   medium: "https://medium.com/@najambutt195",
   stackoverflow: "https://stackoverflow.com/users/9660073/najam-butt",
-  instagram: "https://www.instagram.com/duct_tape_programmer"
+  instagram: "https://www.instagram.com/duct_tape_programmer",
+  npm: "https://www.npmjs.com/najamshehzad",
   // Instagram and Twitter are also supported in the links!
 };
 
 // Your Skills Section
 
 const skillsSection = {
-  title: "What i do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "What I Do",
+  subTitle: "EXPERIENCED FULL STACK DEVELOPER WITH A PASSION FOR CUTTING-EDGE TECHNOLOGIES",
   skills: [
-    emoji("⚡ Build high Quality Back End / Server Side for your System"),
-    emoji("⚡ Integration of third party services such as Firebase/ AWS / DO"),
-    emoji("⚡ Deployemnt of your application at AWS / Digital Ocean / Google Cloud"),
-    emoji("⚡ Develop highly interactive Front End / User Interfaces for your web and mobile applications"),
-    emoji("⚡ Single Page Application ( SPA ) "),
-    emoji("⚡ Progressive Web Applications ( PWA ) "),
-    emoji("⚡ Integration of Third party API like Google, Facebook, Twitter, WordPress, Mautic etc"),
+    emoji("⚡ Build high-quality back-end systems and server-side applications"),
+    emoji("⚡ Develop highly interactive front-end/user interfaces for web and mobile applications"),
+    emoji("⚡ Create Single Page Applications (SPA) and Progressive Web Applications (PWA)"),
+    emoji("⚡ Integrate third-party APIs like Google, Facebook, Twitter, WordPress, and Mautic"),
+    emoji("⚡ Expertise in AI technologies including GPT, LangChain, LLama, and Hugging Face"),
+    emoji("⚡ Deploy applications on cloud platforms like AWS, Google Cloud, and Digital Ocean"),
+    emoji("⚡ Manage cloud infrastructures to ensure high availability and security"),
+    emoji("⚡ Implement CI/CD pipelines using modern DevOps practices"),
+    emoji("⚡ Debug complex applications efficiently with strong problem-solving skills"),
+    emoji("⚡ Lead project development from conception to completion"),
+    emoji("⚡ Contribute to open-source projects and collaborate with the tech community"),
   ],
-
-  /* Make Sure You include correct Font Awesome Classname to view your icon
-  https://fontawesome.com/icons?d=gallery */
-
   softwareSkills: [
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
     {
+      skillName: "TypeScript",
+      fontAwesomeClassname: "fab fa-ts"
+    },
+    {
       skillName: "Python",
       fontAwesomeClassname: "fab fa-python"
     },
+   
     {
       skillName: "NodeJs",
       fontAwesomeClassname: "fab fa-node"
+    },
+    {
+      skillName: "Flask",
+      fontAwesomeClassname: "fab fa-python"
     },
     {
       skillName: "ReactJs",
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "HTML-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "SASS",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "CSS3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "NPM",
-      fontAwesomeClassname: "fab fa-npm"
+      skillName: "GraphQL",
+      fontAwesomeClassname: "fab fa-graphql"
     },
     {
       skillName: "MongoDB",
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "SQL-Database",
+      skillName: "PostgreSQL",
       fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "Firebase",
-      fontAwesomeClassname: "fas fa-fire"
     },
     {
       skillName: "AWS",
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "Digital Ocean",
-      fontAwesomeClassname: "fab fa-digital-ocean"
+      skillName: "Google Cloud",
+      fontAwesomeClassname: "fab fa-google"
     },
     {
-      skillName: "Google Cloud ",
-      fontAwesomeClassname: "fab fa-google"
+      skillName: "Azure",
+      fontAwesomeClassname: "fab fa-microsoft"
     },
     {
       skillName: "Docker",
       fontAwesomeClassname: "fab fa-docker"
     },
+    {
+      skillName: "Kubernetes",
+      fontAwesomeClassname: "fab fa-kubernetes"
+    },
+    {
+      skillName: "Jenkins",
+      fontAwesomeClassname: "fab fa-jenkins"
+    },
   ]
 };
+
 
 
 // Your top 3 proficient stacks/tech experience
