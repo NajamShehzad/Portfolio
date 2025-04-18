@@ -13,7 +13,7 @@ const greeting = {
   username: "Najam Shehzad",
   title: "Hi, It's Najam",
   subTitle: emoji(`🚀 Senior Software Engineer & Software Development Manager with ${yearsActive}+ years of experience delivering scalable, high-impact web, mobile, and backend systems. Skilled in TypeScript, JavaScript, Python, and Go, with deep expertise in AI integrations and cloud platforms including AWS, GCP, and Azure. I focus on building systems that solve real business problems, driving measurable value, not just features. Let’s build something meaningful together. 🔧`),
-  resumeLink: "https://docs.google.com/document/d/1_YKxd1oAenxJHV-1s6KPTBmZdzYWKzFp/edit?usp=sharing&ouid=115993998049444930711&rtpof=true&sd=true"
+  resumeLink: "https://docs.google.com/document/d/1h37-YKtkTgrCd6iP2DqoMSooredupUnK/edit?usp=sharing&ouid=115993998049444930711&rtpof=true&sd=true"
 };
 
 // Your Social Media Link
