@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.ea6145e4.css",
-    "main.js": "/static/js/main.de52b252.js",
-    "static/css/198.26cc9012.chunk.css": "/static/css/198.26cc9012.chunk.css",
-    "static/js/198.a4a03b09.chunk.js": "/static/js/198.a4a03b09.chunk.js",
+    "main.js": "/static/js/main.4ed23867.js",
+    "static/css/580.6a9d885a.chunk.css": "/static/css/580.6a9d885a.chunk.css",
+    "static/js/580.fe19dcfb.chunk.js": "/static/js/580.fe19dcfb.chunk.js",
     "static/css/59.1a5a64f5.chunk.css": "/static/css/59.1a5a64f5.chunk.css",
     "static/js/59.33076692.chunk.js": "/static/js/59.33076692.chunk.js",
     "static/media/stanfordLogo.png": "/static/media/stanfordLogo.5a8e3a0a00949c93a9b8.png",
@@ -33,14 +33,14 @@
     "static/media/typescript.svg": "/static/media/typescript.afd9e43c1222f126a049.svg",
     "static/media/typescriptblue.svg": "/static/media/typescriptblue.329904b1d9042283309d.svg",
     "main.ea6145e4.css.map": "/static/css/main.ea6145e4.css.map",
-    "main.de52b252.js.map": "/static/js/main.de52b252.js.map",
-    "198.26cc9012.chunk.css.map": "/static/css/198.26cc9012.chunk.css.map",
-    "198.a4a03b09.chunk.js.map": "/static/js/198.a4a03b09.chunk.js.map",
+    "main.4ed23867.js.map": "/static/js/main.4ed23867.js.map",
+    "580.6a9d885a.chunk.css.map": "/static/css/580.6a9d885a.chunk.css.map",
+    "580.fe19dcfb.chunk.js.map": "/static/js/580.fe19dcfb.chunk.js.map",
     "59.1a5a64f5.chunk.css.map": "/static/css/59.1a5a64f5.chunk.css.map",
     "59.33076692.chunk.js.map": "/static/js/59.33076692.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ea6145e4.css",
-    "static/js/main.de52b252.js"
+    "static/js/main.4ed23867.js"
   ]
 }
