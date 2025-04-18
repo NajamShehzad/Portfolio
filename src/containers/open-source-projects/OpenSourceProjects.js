@@ -5,9 +5,9 @@ import "./Project.css";
 import Button from "../../components/button/Button";
 import { openSource, socialMediaLinks } from "../../portfolio";
 import { StyleConsumer } from "../../contexts/StyleContext";
-import Loading from "../../containers/loading/Loading";
+import Loading from "../loading/Loading";
 import {pinRepos} from './pintRepo'
-export default function Projects() {
+export default function OpenSourceProjects() {
   const GithubRepoCard = lazy(() =>
     import("../../components/githubRepoCard/GithubRepoCard")
   );

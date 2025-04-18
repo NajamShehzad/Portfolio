@@ -45,7 +45,8 @@ export default function StartupProject() {
                         src={project.image}
                         alt={project.projectName}
                         className="card-image"
-                      ></img>
+                        loading="lazy"
+                      />
                     </div>
                   ) : null}
                   <div className="project-detail">

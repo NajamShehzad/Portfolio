@@ -12,7 +12,7 @@ const greeting = {
   /* Your Summary And Greeting Section */
   username: "Najam Shehzad",
   title: "Hi, It's Najam",
-  subTitle: emoji(`🚀 Senior Software Engineer and Software Development Manager with ${yearsActive}+ years of experience crafting web, mobile, and server applications. Skilled in TypeScript, JavaScript, Python, and C#. 🖥️ Expertise in AI integrations and cloud infrastructures across AWS, GCP, and Azure. Driven by innovation, I prioritize both technical prowess and alignment with business needs. Let's build something amazing together! 🔧`),
+  subTitle: emoji(`🚀 Senior Software Engineer & Software Development Manager with ${yearsActive}+ years of experience delivering scalable, high-impact web, mobile, and backend systems. Skilled in TypeScript, JavaScript, Python, and Go, with deep expertise in AI integrations and cloud platforms including AWS, GCP, and Azure. I focus on building systems that solve real business problems, driving measurable value, not just features. Let’s build something meaningful together. 🔧`),
   resumeLink: "https://docs.google.com/document/d/1_YKxd1oAenxJHV-1s6KPTBmZdzYWKzFp/edit?usp=sharing&ouid=115993998049444930711&rtpof=true&sd=true"
 };
 
@@ -36,19 +36,19 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I Do",
-  subTitle: "EXPERIENCED FULL STACK DEVELOPER WITH A PASSION FOR CUTTING-EDGE TECHNOLOGIES",
+  subTitle:
+    "Experienced Backend-Focused Full Stack Engineer with a Passion for Scalable Systems, AI Integrations, and Cloud-Native Architecture",
   skills: [
-    emoji("⚡ Build high-quality back-end systems and server-side applications"),
-    emoji("⚡ Develop highly interactive front-end/user interfaces for web and mobile applications"),
-    emoji("⚡ Create Single Page Applications (SPA) and Progressive Web Applications (PWA)"),
-    emoji("⚡ Integrate third-party APIs like Google, Facebook, Twitter, WordPress, and Mautic"),
-    emoji("⚡ Expertise in AI technologies including GPT, LangChain, LLama, and Hugging Face"),
-    emoji("⚡ Deploy applications on cloud platforms like AWS, Google Cloud, and Digital Ocean"),
-    emoji("⚡ Manage cloud infrastructures to ensure high availability and security"),
-    emoji("⚡ Implement CI/CD pipelines using modern DevOps practices"),
-    emoji("⚡ Debug complex applications efficiently with strong problem-solving skills"),
-    emoji("⚡ Lead project development from conception to completion"),
-    emoji("⚡ Contribute to open-source projects and collaborate with the tech community"),
+    emoji("⚡ Architect and develop scalable backend systems using Node.js, Golang, TypeScript, and Python"),
+    emoji("⚡ Build microservices and robust APIs focused on maintainability and performance"),
+    emoji("⚡ Develop responsive, high-performing front-end apps using React, Next.js, and GraphQL"),
+    emoji("⚡ Integrate LLMs and AI tools including GPT-4, LangChain, Hugging Face, and Claude"),
+    emoji("⚡ Design and deploy cloud-native applications using Docker and Kubernetes on AWS, GCP, and Azure"),
+    emoji("⚡ Implement CI/CD pipelines using GitHub Actions, Jenkins, and DevOps best practices"),
+    emoji("⚡ Manage PostgreSQL, MongoDB, Redis, and SQL Server for optimized data operations"),
+    emoji("⚡ Solve complex engineering problems with a focus on real-world outcomes and business impact"),
+    emoji("⚡ Lead projects from architecture and team mentoring through delivery and observability"),
+    emoji("⚡ Contribute to and maintain open-source libraries including TypeSentry, BankId, and Apache ECharts")
   ],
   softwareSkills: [
     {
@@ -63,14 +63,13 @@ const skillsSection = {
       skillName: "Python",
       fontAwesomeClassname: "fab fa-python"
     },
-   
+    {
+      skillName: "Golang",
+      fontAwesomeClassname: "fa-brands fa-golang" // No official Golang FA icon, using code as fallback
+    },
     {
       skillName: "NodeJs",
       fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "Flask",
-      fontAwesomeClassname: "fab fa-python"
     },
     {
       skillName: "ReactJs",
@@ -78,7 +77,7 @@ const skillsSection = {
     },
     {
       skillName: "GraphQL",
-      fontAwesomeClassname: "fab fa-graphql"
+      fontAwesomeClassname: "fas fa-project-diagram"
     },
     {
       skillName: "MongoDB",
@@ -87,6 +86,10 @@ const skillsSection = {
     {
       skillName: "PostgreSQL",
       fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "Redis",
+      fontAwesomeClassname: "fas fa-memory"
     },
     {
       skillName: "AWS",
@@ -110,17 +113,34 @@ const skillsSection = {
     },
     {
       skillName: "Jenkins",
-      fontAwesomeClassname: "fab fa-jenkins"
+      fontAwesomeClassname: "fas fa-cogs"
     },
+    {
+      skillName: "Hugging Face",
+      fontAwesomeClassname: "fas fa-brain"
+    },
+    {
+      skillName: "LangChain",
+      fontAwesomeClassname: "fas fa-link"
+    },
+    {
+      skillName: "Claude",
+      fontAwesomeClassname: "fas fa-robot"
+    },
+    {
+      skillName: "TypeSentry",
+      fontAwesomeClassname: "fas fa-shield-alt"
+    }
   ]
 };
+
 
 
 
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Backend",
@@ -173,35 +193,66 @@ const educationInfo = {
 // Your top 3 work experiences
 
 const workExperiences = {
-  viewExperiences: true, //Set it to true to show workExperiences Section
+  viewExperiences: true,
   experience: [
     {
       role: "Development Manager",
+      company: "Digital Plattform",
+      companylogo: require("./assets/images/blue-stripes-150x150.png"),
+      date: "Jan 2023 - Present",
+      desc: "Driving full-cycle product development and cloud-native architecture for large-scale platforms across energy, recruitment, and e-commerce domains in Sweden.",
+      descBullets: [
+        "Engineered the P2 Energy system handling 200M+ data points from SMHI, Metry, and Elvaco; optimized queries and indexing for high-performance analytics and scalable data access",
+        "Built and scaled system integrations such as Visma ↔ Magento (Kontorab AB) and WordPress ↔ Teamtailor (Xamera) using job queues and custom webhooks",
+        "Developed and orchestrated automated job scheduling with cron and BullMQ queues to streamline recurring processes and ensure task reliability",
+        "Led development of an AI-driven workflow engine leveraging GPT-4 and LangChain for document intelligence and internal automation",
+        "Designed and shipped a modular Pawn system supporting inventory, role-based permissions, and transactional history",
+        "Introduced microservices and containerization (Docker, Kubernetes), reducing deployment time and improving system observability",
+        "Collaborated closely with product and design teams to deliver scalable, user-centric solutions across multiple verticals"
+      ]
+    },
+    {
+      role: "Development Team Lead",
       company: "Digital Marknadsplan",
       companylogo: require("./assets/images/dmn.png"),
-      date: "May 2020 – Present",
-      //   desc: "This is description",
-      //   descBullets: [
-      //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      //   ]
+      date: "May 2020 - Jan 2023",
+      desc: "Led development of a centralized Marketing Resource Management (MRM) platform to optimize campaign planning, execution, and performance for clients across Scandinavia.",
+      descBullets: [
+        "Built a scalable MRM platform enabling real-time interactive planning, budget tracking, and performance analytics through dynamic dashboards and automated KPI reporting",
+        "Implemented marketing automation features. From email campaigns and landing pages to smart segmentation and lead nurturing workflows",
+        "Architected robust backend systems with Node.js, Express, MongoDB, and React; designed for scalability and modularity",
+        "Integrated the system with Google services and major CRMs to unify marketing and sales operations across multiple data sources",
+        "Streamlined team collaboration by embedding content planning, review workflows, and campaign approvals into a single platform",
+        "Managed CI/CD with GitHub Actions and mentored junior developers, boosting productivity and code quality across the team"
+      ]
     },
     {
       role: "Full Stack Developer",
       company: "Upwork",
       companylogo: require("./assets/images/upwork.png"),
       date: "Jan 2019 – May 2020",
-      // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "Worked with multiple international clients as a freelance developer to deliver scalable software and e-commerce platforms.",
+      descBullets: [
+        "Developed a complete e-commerce platform for Closebuy, enabling seamless checkout with QR-based association features",
+        "Built custom CMS and dashboard solutions for analytics and reporting across different industries",
+        "Delivered full-stack projects using Node.js, React, GraphQL, and MongoDB under strict delivery timelines",
+      ]
     },
     {
       role: "MERN Stack Developer",
       company: "Panacloud",
       companylogo: require("./assets/images/pana.jpg"),
-      date: "AUG 2018 – May 2019",
-      // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
+      date: "Aug 2018 – May 2019",
+      desc: "Contributed to core platform development for PIAIC, a national education initiative for AI and cloud computing in Pakistan.",
+      descBullets: [
+        "Built backend services for student registration, fee processing, and authentication using Node.js and MongoDB",
+        "Enabled students to access online lectures and materials through a secure content delivery system",
+        "Improved backend performance and system reliability under high user loads by optimizing database queries",
+      ]
+    }
   ]
 };
+
 
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
@@ -220,31 +271,121 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/closebuy.jpg"),
-      projectName: "Closebuy",
-      projectDesc: "A completely new concept for unmanned stores that gives your association extra buzz at the checkout.",
+      image: require("./assets/images/dp-logo_white.png"),
+      projectName: "Digital Plattform",
+      projectDesc:
+        "A modular, cloud-native platform designed for rapid development of tailored business systems — from energy analytics and AI workflow engines to recruitment and e-commerce integrations. It helps organizations modernize operations by reusing flexible building blocks like authentication, reporting, dashboards, and external integrations.",
       footerLink: [
         {
-          name: "Visit Closebuy",
-          url:  "https://www.closebuy.se/"
+          name: "Visit Digital Plattform",
+          url: "https://digitalplattform.se/"
         }
-        //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/piaic.jpg"),
-      projectName: "PIAIC",
-      projectDesc: "Presidential Initiative for Artificial Intelligence & Computing (PIAIC)",
+      image: require("./assets/images/p2energi.png"),
+      projectName: "P2 Energy — Digital Plattform",
+      projectDesc:
+        "Engineered a scalable energy data platform handling 200M+ metrics from SMHI, Metry, and Elvaco with real-time analytics, automated indexing, and high-throughput GraphQL APIs. The system enabled strategic growth and played a key role in P2 Energy’s acquisition by PropTech Energy, one of Sweden's leading indoor climate and energy service providers.",
+      footerLink: [
+        {
+          name: "Visit P2 Energy",
+          url: "https://www.p2ab.se/"
+        },
+        {
+          name: "Read Acquisition News",
+          url: "https://www.procuritas.com/proptech-energy-grows-with-p2-energi"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/dmn.png"),
+      projectName: "AI Workflows — Digital Plattform",
+      projectDesc:
+        "Developed a modular, LLM-powered automation platform using GPT-4 and LangChain to streamline complex workflows. Enabled use cases like automated customer responses for moving companies, AI-assisted medical reply drafting for surgeons, and custom document workflows tailored to unique business needs.",
+      footerLink: [
+        {
+          name: "Visit AI Workflows",
+          url: "https://flows.digitalplattform.se"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/dp-logo_white.png"),
+      projectName: "MRM – Digital Marknadsplan",
+      projectDesc:
+        "A powerful Marketing Resource Management (MRM) platform enabling organizations to centralize marketing operations—from strategic planning and budgeting to campaign automation and performance reporting. Features include content calendars, automated email flows, KPI dashboards, task collaboration, and order/budget workflows tailored for agencies and enterprises across Scandinavia.",
+      footerLink: [
+        {
+          name: "Visit MRM",
+          url: "https://app.digitalplattform.se/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/kontorab.png"),
+      projectName: "Visma–Magento Integration (Kontorab)",
+      projectDesc:
+        "Engineered a robust integration to seamlessly connect Magento with Visma CRM, enabling bi-directional synchronization of orders, customers, articles, article groups, and more. The solution uses a job queue and scheduling system to automate data flows, ensure real-time consistency, and streamline e-commerce operations for Kontorab.",
+      footerLink: [
+        {
+          name: "Visit Kontorab Site",
+          url: "https://www.kontorab.se/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/xamera.png"),
+      projectName: "Xamera Job Match",
+      projectDesc:
+        "Automated Xamera’s recruitment pipeline by integrating Teamtailor with their website. Enabled real-time job syncing and introduced a one-click apply system—letting candidates apply to multiple roles at once, significantly increasing conversion and applicant volume.",
+      footerLink: [
+        {
+          name: "Visit Xamera",
+          url: "https://www.xamera.se/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/closebuy.png"),
+      projectName: "Closebuy",
+      projectDesc:
+        "Developed the full digital infrastructure for Closebuy's unmanned store concept — integrating secure access via BankID, payment through Swish and Klarna, and RCO smart door controls. Enabled 24/7 operations, frictionless entry, and checkout, powering new revenue streams for local associations.",
+      footerLink: [
+        {
+          name: "Visit Closebuy",
+          url: "https://www.closebuy.se/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/piaic.png"),
+      projectName: "PIAIC – Panacloud",
+      projectDesc:
+        "Engineered the backend for Pakistan’s national AI education initiative (PIAIC), enabling 100K+ student registrations with scalable MongoDB storage, Node.js APIs, and cron-driven workflows. Delivered secure access to online lectures and ensured high availability under nationwide load.",
       footerLink: [
         {
           name: "Visit PIAIC",
-          link: "https://www.piaic.org/"
+          url: "https://www.piaic.org/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/ps-mypages-logo.png"),
+      projectName: "Pawn System – Gomer Andersson",
+      projectDesc:
+        "Delivered a secure, role-based pawn management platform for Gomer Andersson, enabling full lifecycle tracking of pawn items, transactions, and customer history. Streamlined internal operations with real-time inventory updates, audit logs, and user access controls.",
+      footerLink: [
+        {
+          name: "Visit Gomer Andersson",
+          url: "https://pantbank.se/"
         }
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
+
 
 // Your Achievement Section Include Your Certification Talks and More
 

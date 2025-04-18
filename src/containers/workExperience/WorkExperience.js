@@ -15,8 +15,10 @@ export default function WorkExperience() {
                     <div>
                         <h1 className="experience-heading">Experiences</h1>
                         <div className="experience-cards-div">
-                        {workExperiences.experience.map((card) => {
+                        {workExperiences.experience.map((card,index) => {
                             return (
+                                <Fade bottom duration={700} delay={index * 150}>
+
                                 <ExperienceCard
                                     isDark={isDark}
                                     cardInfo={{
@@ -28,6 +30,7 @@ export default function WorkExperience() {
                                         descBullets: card.descBullets
                                     }}
                                 />
+                                </Fade>
                             );
                         })}
                         </div>

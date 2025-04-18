@@ -1,20 +1,36 @@
 .card-image {
   max-width: 100%;
   height: auto;
-  width: 250px;
+  width: 130px;
+  object-fit: contain; /* ensures the image maintains its aspect ratio */
+  display: block;
+  margin: 0 auto; /* center the logo horizontally */
 }
+
 .card-title {
   color: #000000;
   font-size: 22px;
   line-height: 24px;
   font-weight: 700;
   margin: 15px 0 0 0;
+  text-align: center;
 }
+
+.dark-mode.card-title {
+  color: #ffffff;
+}
+
 .card-subtitle {
   color: #666666;
   font-size: 17px;
   line-height: 1.5rem;
+  text-align: center;
 }
+
+.dark-mode.card-subtitle {
+  color: #cccccc;
+}
+
 .project-card {
   display: flex;
   flex-direction: column;
@@ -22,8 +38,11 @@
   padding: 1.5rem;
   border-radius: 10px;
   border: 1px solid rgba(211, 211, 211, 0.397);
-  justify-content: center;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%; /* ensure consistent height */
 }
+
 .project-card-light {
   box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px;
   -webkit-transition: all 0.3s ease;
@@ -32,6 +51,8 @@
 }
 
 .project-card-dark {
+  background-color: #171c28;
+  border: 1px solid rgba(255, 255, 255, 0.1);
   box-shadow: 0px 10px 30px -15px #d9dbdf;
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
@@ -40,24 +61,51 @@
 
 .project-detail {
   text-align: center;
+  width: 100%;
+  margin-top: 10px;
 }
+
 .project-card-light:hover {
   box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px -10px;
 }
+
 .project-card-dark:hover {
   box-shadow: #d9dbdf 0px 20px 30px -10px;
 }
+
 .project-image {
   position: relative;
-  height: 250px;
+  height: 120px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5px;
   overflow: hidden;
-  text-align: center;
+  background-color: #f0f2f5; /* soft light gray-blue for subtle contrast */
+  border-radius: 10px; /* slightly more modern and smooth */
+  border: 1px solid #e0e0e0; /* faint border for definition */
+  padding: 8px; /* ensures logo isn’t touching the edge */
+}
+
+/* Dark theme version of the project image */
+.dark-mode .project-image {
+  background-color: #2A3441; /* Darker background for dark theme */
+  border: 1px solid #3A4452; /* Darker border for dark theme */
 }
 
 .projects-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 1rem 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  gap: 4rem 2rem; /* increased vertical gap between rows */
+}
+
+.project-card-footer {
+  margin-top: 15px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .project-card-footer span.project-tag {
@@ -82,5 +130,15 @@
   .project-subtitle {
     font-size: 16px;
     text-align: center;
+  }
+  
+  .project-image {
+    height: 100px; /* smaller on mobile */
+  }
+
+  .projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 4rem 2rem; /* increased vertical gap between rows */
   }
 }

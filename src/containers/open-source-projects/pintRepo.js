@@ -3,11 +3,11 @@ export const pinRepos = {
     "edges": [
       {
         "node": {
-          "name": "bankid",
+          "name": "BankID",
           "description": "npm module to simplify integration with the Swedish Bank ID service for user authentication and signing processes.",
-          "forkCount": 25,
+          "forkCount": 26,
           "stargazers": {
-            "totalCount": 54,
+            "totalCount": 70,
             "__typename": "StargazerConnection"
           },
           "url": "https://github.com/anyfin/bankid",
@@ -24,7 +24,7 @@ export const pinRepos = {
       },
       {
         "node": {
-          "name": "developerFolio",
+          "name": "Developer Folio",
           "description": "🚀 Software Developer Portfolio Template that helps you showcase your work and skills as a software developer.",
           "forkCount": 2274,
           "stargazers": {
@@ -45,19 +45,19 @@ export const pinRepos = {
       },
       {
         "node": {
-          "name": "NodeExpressBoilerplate",
-          "description": null,
-          "forkCount": 2,
+          "name": "Apache Echarts",
+          "description": "Apache ECharts is a powerful, interactive charting and visualization library for browser.",
+          "forkCount": "19.7k",
           "stargazers": {
-            "totalCount": 8,
+            "totalCount": "63.3K",
             "__typename": "StargazerConnection"
           },
-          "url": "https://github.com/NajamShehzad/NodeExpressBoilerplate",
+          "url": "https://github.com/apache/echarts",
           "id": "MDEwOlJlcG9zaXRvcnkxNjg4MzYyMjY=",
           "diskUsage": 9,
           "primaryLanguage": {
-            "name": "JavaScript",
-            "color": "#f1e05a",
+            "name": "TypeScript",
+            "color": "#3178c6",
             "__typename": "Language"
           },
           "__typename": "Repository"
@@ -66,14 +66,14 @@ export const pinRepos = {
       },
       {
         "node": {
-          "name": "React-Apollo",
-          "description": null,
+          "name": "Type-Sentry",
+          "description": "Lightweight TypeScript library for robust runtime type checking and validation. Utilizes decorators for easy integration, supports complex object validation, and allows custom validators. Enhance your TypeScript projects with minimal overhead.",
           "forkCount": 0,
           "stargazers": {
-            "totalCount": 3,
+            "totalCount": 8,
             "__typename": "StargazerConnection"
           },
-          "url": "https://github.com/NajamShehzad/React-Apollo",
+          "url": "https://github.com/NajamShehzad/type-sentry",
           "id": "MDEwOlJlcG9zaXRvcnkxNzYxMTg1Nzk=",
           "diskUsage": 177,
           "primaryLanguage": {
@@ -106,27 +106,27 @@ export const pinRepos = {
         },
         "__typename": "PinnableItemEdge"
       },
-      {
-        "node": {
-          "name": "Node-Live-ChatApp",
-          "description": null,
-          "forkCount": 1,
-          "stargazers": {
-            "totalCount": 0,
-            "__typename": "StargazerConnection"
-          },
-          "url": "https://github.com/NajamShehzad/Node-Live-ChatApp",
-          "id": "MDEwOlJlcG9zaXRvcnkxNDM5ODAzNzM=",
-          "diskUsage": 80,
-          "primaryLanguage": {
-            "name": "JavaScript",
-            "color": "#f1e05a",
-            "__typename": "Language"
-          },
-          "__typename": "Repository"
-        },
-        "__typename": "PinnableItemEdge"
-      }
+      // {
+      //   "node": {
+      //     "name": "Node-Live-ChatApp",
+      //     "description": null,
+      //     "forkCount": 1,
+      //     "stargazers": {
+      //       "totalCount": 0,
+      //       "__typename": "StargazerConnection"
+      //     },
+      //     "url": "https://github.com/NajamShehzad/Node-Live-ChatApp",
+      //     "id": "MDEwOlJlcG9zaXRvcnkxNDM5ODAzNzM=",
+      //     "diskUsage": 80,
+      //     "primaryLanguage": {
+      //       "name": "JavaScript",
+      //       "color": "#f1e05a",
+      //       "__typename": "Language"
+      //     },
+      //     "__typename": "Repository"
+      //   },
+      //   "__typename": "PinnableItemEdge"
+      // }
     ],
     "__typename": "PinnableItemConnection"
   }
