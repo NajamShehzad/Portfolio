@@ -299,7 +299,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/dmn.png"),
+      image: require("./assets/images/dp-logo_white.png"),
       projectName: "AI Workflows — Digital Plattform",
       projectDesc:
         "Developed a modular, LLM-powered automation platform using GPT-4 and LangChain to streamline complex workflows. Enabled use cases like automated customer responses for moving companies, AI-assisted medical reply drafting for surgeons, and custom document workflows tailored to unique business needs.",
@@ -311,7 +311,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/dp-logo_white.png"),
+      image: require("./assets/images/dmn.png"),
       projectName: "MRM – Digital Marknadsplan",
       projectDesc:
         "A powerful Marketing Resource Management (MRM) platform enabling organizations to centralize marketing operations—from strategic planning and budgeting to campaign automation and performance reporting. Features include content calendars, automated email flows, KPI dashboards, task collaboration, and order/budget workflows tailored for agencies and enterprises across Scandinavia.",
