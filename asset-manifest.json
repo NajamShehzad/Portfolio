@@ -1,24 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.5dfc5ed4.css",
-    "main.js": "/static/js/main.491f6f2b.js",
+    "main.css": "/static/css/main.a9859f3e.css",
+    "main.js": "/static/js/main.a9d9d0bc.js",
     "static/css/198.26cc9012.chunk.css": "/static/css/198.26cc9012.chunk.css",
     "static/js/198.a4a03b09.chunk.js": "/static/js/198.a4a03b09.chunk.js",
     "static/css/59.1a5a64f5.chunk.css": "/static/css/59.1a5a64f5.chunk.css",
     "static/js/59.33076692.chunk.js": "/static/js/59.33076692.chunk.js",
-    "static/media/piaic.jpg": "/static/media/piaic.64ab2cbcc67bc5feafc6.jpg",
     "static/media/stanfordLogo.png": "/static/media/stanfordLogo.5a8e3a0a00949c93a9b8.png",
     "static/media/harvardLogo.png": "/static/media/harvardLogo.0038dd288d80ae8432af.png",
     "static/media/pana.jpg": "/static/media/pana.5ad68804f30e8f068df8.jpg",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
-    "static/media/closebuy.jpg": "/static/media/closebuy.a12e17aec4d002392085.jpg",
+    "static/media/piaic.png": "/static/media/piaic.15f82b2d79f8f21ed440.png",
+    "static/media/xamera.png": "/static/media/xamera.86ae88c75fb61293979f.png",
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/ps-mypages-logo.png": "/static/media/ps-mypages-logo.ddfafc702bdd728723f8.png",
     "static/media/contactMail.webp": "/static/media/contactMail.298a597edb8258fc13e5.webp",
     "static/media/manOnTable.svg": "/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
+    "static/media/dmn.png": "/static/media/dmn.91089e57cdee9478f11f.png",
     "static/media/contactMailDark.svg": "/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
     "static/media/developerActivity.svg": "/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
     "static/media/googleAssistantLogo.webp": "/static/media/googleAssistantLogo.f720c71652579588524a.webp",
-    "static/media/dmn.png": "/static/media/dmn.cba574f1c2f676b1f0c2.png",
+    "static/media/dp-logo_white.png": "/static/media/dp-logo_white.a4285b0cfa65cd64220b.png",
     "static/media/codeInLogo.webp": "/static/media/codeInLogo.e41a71d512efeda2a55c.webp",
     "static/media/skill.svg": "/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
     "static/media/logo.svg": "/static/media/logo.927f1d60d9299096a4a8068289cc4d4b.svg",
@@ -30,16 +32,15 @@
     "static/media/graphqlblue.svg": "/static/media/graphqlblue.2639a98fd5f96a291443.svg",
     "static/media/typescript.svg": "/static/media/typescript.afd9e43c1222f126a049.svg",
     "static/media/typescriptblue.svg": "/static/media/typescriptblue.329904b1d9042283309d.svg",
-    "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
-    "main.5dfc5ed4.css.map": "/static/css/main.5dfc5ed4.css.map",
-    "main.491f6f2b.js.map": "/static/js/main.491f6f2b.js.map",
+    "main.a9859f3e.css.map": "/static/css/main.a9859f3e.css.map",
+    "main.a9d9d0bc.js.map": "/static/js/main.a9d9d0bc.js.map",
     "198.26cc9012.chunk.css.map": "/static/css/198.26cc9012.chunk.css.map",
     "198.a4a03b09.chunk.js.map": "/static/js/198.a4a03b09.chunk.js.map",
     "59.1a5a64f5.chunk.css.map": "/static/css/59.1a5a64f5.chunk.css.map",
     "59.33076692.chunk.js.map": "/static/js/59.33076692.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5dfc5ed4.css",
-    "static/js/main.491f6f2b.js"
+    "static/css/main.a9859f3e.css",
+    "static/js/main.a9d9d0bc.js"
   ]
 }
