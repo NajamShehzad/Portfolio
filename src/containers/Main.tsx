@@ -19,7 +19,6 @@ import Profile from "./profile/Profile";
 // import Podcast from "./podcast/Podcast";
 // import Twitter from "./twitter-embed/twitter";
 // import { educationInfo } from "../portfolio";
-
 interface MainState {
   isDark: boolean;
 }
