@@ -1,6 +1,7 @@
 import { defineConfig } from "@rsbuild/core";
 import { pluginReact } from "@rsbuild/plugin-react";
 import { pluginTypeCheck } from "@rsbuild/plugin-type-check";
+import { pluginNodePolyfill } from "@rsbuild/plugin-node-polyfill";
 
 export default defineConfig({
   plugins: [
@@ -8,6 +9,7 @@ export default defineConfig({
     pluginTypeCheck({
       enable: true,
     }),
+    pluginNodePolyfill(),
   ],
   html: {
     template: "./public/index.html",
@@ -23,11 +25,6 @@ export default defineConfig({
   source: {
     entry: {
       index: "./src/index.tsx",
-    },
-    define: {
-      "process.env.REACT_APP_GITHUB_TOKEN": JSON.stringify(
-        process.env.REACT_APP_GITHUB_TOKEN || "",
-      ),
     },
   },
   server: {
