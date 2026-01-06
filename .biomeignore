@@ -1,0 +1,11 @@
+node_modules
+build
+dist
+coverage
+.vscode
+test-results
+playwright-report
+*.min.js
+*.min.css
+package-lock.json
+pnpm-lock.yaml
