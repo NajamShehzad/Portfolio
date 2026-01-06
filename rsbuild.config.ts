@@ -24,6 +24,11 @@ export default defineConfig({
     entry: {
       index: "./src/index.tsx",
     },
+    define: {
+      "process.env.REACT_APP_GITHUB_TOKEN": JSON.stringify(
+        process.env.REACT_APP_GITHUB_TOKEN || "",
+      ),
+    },
   },
   server: {
     port: 3000,
